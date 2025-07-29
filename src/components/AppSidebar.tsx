@@ -34,10 +34,10 @@ const navigationItems = [
     description: "Dashboard overview"
   },
   { 
-    title: "Cost Tracking", 
-    url: "/costs", 
+    title: "Financial Intelligence", 
+    url: "/financial", 
     icon: DollarSign,
-    description: "API costs & spending",
+    description: "Cost & revenue tracking",
     badge: "Live",
     isHighlighted: true
   },

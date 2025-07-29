@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { DashboardLayout } from "@/components/DashboardLayout";
 import Overview from "./pages/Overview";
-import CostTracking from "./pages/CostTracking";
+import FinancialDashboard from "./pages/FinancialDashboard";
 import UserManagement from "./pages/UserManagement";
 import ConversationMonitor from "./pages/ConversationMonitor";
 import BotIntelligence from "./pages/BotIntelligence";
@@ -23,7 +23,7 @@ const App = () => (
         <DashboardLayout>
           <Routes>
             <Route path="/" element={<Overview />} />
-            <Route path="/costs" element={<CostTracking />} />
+            <Route path="/financial" element={<FinancialDashboard />} />
             <Route path="/users" element={<UserManagement />} />
             <Route path="/conversations" element={<ConversationMonitor />} />
             <Route path="/bot-intelligence" element={<BotIntelligence />} />
