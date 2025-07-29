@@ -9,67 +9,67 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* CheatCode AI Dark Theme - Fixed HSL Colors */
-    --background: 15 15 35;  /* Dark navy #0f0f23 */
-    --foreground: 255 255 255;  /* Pure white */
+    --background: 240 56% 10%;  /* Dark navy #0f0f23 */
+    --foreground: 0 0% 100%;  /* Pure white */
 
-    --card: 31 31 31;  /* Dark gray #1f1f1f */
-    --card-foreground: 255 255 255;
+    --card: 0 0% 12%;  /* Dark gray #1f1f1f */
+    --card-foreground: 0 0% 100%;
 
-    --popover: 31 31 31;
-    --popover-foreground: 255 255 255;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 100%;
 
     /* Purple/Magenta Primary (CheatCode AI style) */
     --primary: 317 100% 74%;  /* Bright purple/magenta #d946ef */
-    --primary-foreground: 255 255 255;
+    --primary-foreground: 0 0% 100%;
     --primary-glow: 317 100% 84%;
 
     /* Secondary Purple */
     --secondary: 262 83% 58%;  /* Purple #a855f7 */
-    --secondary-foreground: 255 255 255;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 42 42 42;  /* Dark muted #2a2a2a */
-    --muted-foreground: 160 160 160;  /* Light gray #a0a0a0 */
+    --muted: 0 0% 16%;  /* Dark muted #2a2a2a */
+    --muted-foreground: 0 0% 63%;  /* Light gray #a0a0a0 */
 
     --accent: 317 100% 74%;  /* Same as primary */
-    --accent-foreground: 255 255 255;
+    --accent-foreground: 0 0% 100%;
 
     /* Status Colors - CheatCode AI style */
     --success: 142 76% 56%;  /* Bright green #4ade80 */
-    --success-foreground: 255 255 255;
+    --success-foreground: 0 0% 100%;
     
     --warning: 38 92% 50%;
-    --warning-foreground: 255 255 255;
+    --warning-foreground: 0 0% 100%;
     
     --destructive: 0 84% 60%;
-    --destructive-foreground: 255 255 255;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 42 42 42;  /* Dark borders */
-    --input: 42 42 42;
+    --border: 0 0% 16%;  /* Dark borders */
+    --input: 0 0% 16%;
     --ring: 317 100% 74%;  /* Purple ring */
 
     --radius: 0.75rem;
 
     /* CheatCode AI Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(317, 100%, 74%), hsl(262, 83%, 78%));
-    --gradient-purple: linear-gradient(135deg, hsl(317, 100%, 74%), hsl(262, 83%, 58%));
-    --gradient-subtle: linear-gradient(180deg, hsl(15, 15%, 14%), hsl(31, 31%, 12%));
-    --gradient-card: linear-gradient(135deg, hsl(31, 31%, 12%), hsl(42, 42%, 16%));
+    --gradient-primary: linear-gradient(135deg, hsl(317 100% 74%), hsl(262 83% 78%));
+    --gradient-purple: linear-gradient(135deg, hsl(317 100% 74%), hsl(262 83% 58%));
+    --gradient-subtle: linear-gradient(180deg, hsl(240 56% 8%), hsl(0 0% 8%));
+    --gradient-card: linear-gradient(135deg, hsl(0 0% 12%), hsl(0 0% 16%));
 
     /* Dark Theme Shadows */
-    --shadow-elegant: 0 10px 30px -10px hsl(317, 100%, 74%, 0.4);
-    --shadow-glow: 0 0 40px hsl(317, 100%, 84%, 0.5);
-    --shadow-card: 0 4px 20px -4px hsl(0, 0%, 0%, 0.3);
+    --shadow-elegant: 0 10px 30px -10px hsl(317 100% 74% / 0.4);
+    --shadow-glow: 0 0 40px hsl(317 100% 84% / 0.5);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 31 31 31;
-    --sidebar-foreground: 255 255 255;
+    --sidebar-background: 0 0% 12%;
+    --sidebar-foreground: 0 0% 100%;
     --sidebar-primary: 317 100% 74%;
-    --sidebar-primary-foreground: 255 255 255;
-    --sidebar-accent: 42 42 42;
-    --sidebar-accent-foreground: 255 255 255;
-    --sidebar-border: 42 42 42;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 16%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 0 0% 16%;
     --sidebar-ring: 317 100% 74%;
   }
 
