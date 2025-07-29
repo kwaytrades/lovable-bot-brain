@@ -24,12 +24,22 @@ import {
 } from "@/components/ui/sidebar"
 import { Badge } from "@/components/ui/badge"
 
+import { DollarSign } from "lucide-react"
+
 const navigationItems = [
   { 
     title: "Overview", 
     url: "/", 
     icon: Home,
     description: "Dashboard overview"
+  },
+  { 
+    title: "Cost Tracking", 
+    url: "/costs", 
+    icon: DollarSign,
+    description: "API costs & spending",
+    badge: "Live",
+    isHighlighted: true
   },
   { 
     title: "User Management", 
@@ -49,8 +59,7 @@ const navigationItems = [
     title: "Bot Intelligence", 
     url: "/bot-intelligence", 
     icon: Brain,
-    description: "AI performance analysis",
-    isHighlighted: true
+    description: "AI performance analysis"
   },
   { 
     title: "Analytics", 

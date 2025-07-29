@@ -18,8 +18,12 @@ export default function Overview() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-foreground">Dashboard Overview</h1>
-          <p className="text-muted-foreground">Monitor your SMS trading bot performance in real-time</p>
+          <h1 className="text-3xl font-bold bg-gradient-purple bg-clip-text text-transparent">
+            AI-Powered Trading Intelligence
+          </h1>
+          <p className="text-muted-foreground">
+            <span className="text-success font-semibold">Imagine Having</span> the most advanced trading minds in your pocket
+          </p>
         </div>
         
         <div className="flex items-center space-x-2 text-sm text-muted-foreground">
